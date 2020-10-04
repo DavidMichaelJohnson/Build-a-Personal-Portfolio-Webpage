@@ -1,6 +1,6 @@
 #navbar {
     grid-area: navbar;
-    position: fixed;
+    position: fixed; top: 0; left: 0; width: 100%;
 }
 
 #navbar a {
@@ -13,18 +13,19 @@
 }
 
 body {
-    padding-top: 70px;
+    padding-top: none;
 }
 
 #welcome-section {
-    padding-top: 0px;
-    margin-top: 0px;
-    display: block;
     height: 100vh;
+    background-color: grey;
+    text-align: center;
+    padding: 350px 0;
+    font-size: 200%;
 }
 
 .projects-grid {
-    display: inline;
+    display: table;
 }
 
 @media only screen and (max-width: 800px) {
