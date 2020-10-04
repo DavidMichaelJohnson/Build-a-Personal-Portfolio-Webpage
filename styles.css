@@ -1,0 +1,34 @@
+#navbar {
+    grid-area: navbar;
+    position: fixed;
+}
+
+#navbar a {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding-top: 70px;
+}
+
+#welcome-section {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+}
+
+.projects-grid {
+    display: inline;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
