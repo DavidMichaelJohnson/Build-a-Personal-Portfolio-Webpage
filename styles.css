@@ -25,7 +25,34 @@ body {
 }
 
 .projects-grid {
-    display: table;
+    width: 2000px;
+    height: 600px;
+    position: relative;
+
+}
+
+.project-tile1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.project-tile2 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+.project-tile3 {
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+}
+
+.project-tile4 {
+    position: absolute;
+    top: 0px;
+    left: 1500px;
 }
 
 @media only screen and (max-width: 800px) {
