@@ -1,6 +1,9 @@
 #navbar {
     grid-area: navbar;
     position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
 
 #navbar a {
@@ -13,7 +16,9 @@
 }
 
 body {
-    padding-top: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #welcome-section {
@@ -21,8 +26,12 @@ body {
     width: 100vw;
     background-color: grey;
     text-align: center;
-    padding: 350px 0;
-    font-size: 200%;
+    font-size: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects-grid {
